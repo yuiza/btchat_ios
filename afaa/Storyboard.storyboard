@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AE5-1R-rSp">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gXo-gY-6pj">
+            <objects>
+                <viewController id="AE5-1R-rSp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d9b-v9-Opb"/>
+                        <viewControllerLayoutGuide type="bottom" id="GeC-0u-Cec"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BGc-eO-UFB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMv-YD-YYV">
+                                <rect key="frame" x="26" y="62" width="269" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="Bjw-sq-J19"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LKK-6d-ff7">
+                                <rect key="frame" x="32" y="202" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="hae-pa-fcW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKf-tI-oUL">
+                                <rect key="frame" x="26" y="252" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Zbg-5k-45q"/>
+                                </constraints>
+                                <state key="normal" title="conect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thy-mS-SNc">
+                                <rect key="frame" x="248" y="252" width="34" height="30"/>
+                                <state key="normal" title="send">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nMv-YD-YYV" firstAttribute="centerX" secondItem="BGc-eO-UFB" secondAttribute="centerX" id="54M-gW-2ib"/>
+                            <constraint firstItem="XKf-tI-oUL" firstAttribute="top" secondItem="BGc-eO-UFB" secondAttribute="top" constant="252" id="8fu-eY-0jI"/>
+                            <constraint firstItem="LKK-6d-ff7" firstAttribute="top" secondItem="BGc-eO-UFB" secondAttribute="top" constant="202" id="FKc-EH-P2Y"/>
+                            <constraint firstItem="nMv-YD-YYV" firstAttribute="top" secondItem="BGc-eO-UFB" secondAttribute="top" constant="62" id="S2z-Dg-G8m"/>
+                            <constraint firstItem="thy-mS-SNc" firstAttribute="baseline" secondItem="XKf-tI-oUL" secondAttribute="baseline" id="dxg-zB-7Jc"/>
+                            <constraint firstItem="LKK-6d-ff7" firstAttribute="trailing" secondItem="thy-mS-SNc" secondAttribute="trailing" id="g2m-ze-VDU"/>
+                            <constraint firstItem="LKK-6d-ff7" firstAttribute="leading" secondItem="BGc-eO-UFB" secondAttribute="leading" constant="32" id="iJV-ep-bwJ"/>
+                            <constraint firstItem="XKf-tI-oUL" firstAttribute="leading" secondItem="nMv-YD-YYV" secondAttribute="leading" id="qsO-MR-ifC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DMj-yw-wKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242" y="-1268"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
